@@ -29,7 +29,7 @@ run_joint = True
 # scratch: location of model output
 # ignore: suppress parameters from file name
 folder = 'hybrid'
-scratch = '/scratch/users/rshu15/Documents/github/cde2/07_double'
+scratch = 'saved_models'
 ignore = {'bn', 'dist_bn', 'lc', 'lxy', 'lx', 'ly', 'lr', 'joint_lr', 'run_every', 'scratch'}
 
 for _ in xrange(5):
